@@ -51,7 +51,7 @@ body {
     align-items: center;
 } */
 
-
+/* here */
 
 
 .top-bar{
@@ -141,4 +141,38 @@ body {
     margin-top: 10px;
 }
 
- 
+@media (max-width: 600px) {
+    .container {
+        width:400px;
+        margin: 100px auto; 
+        border-radius: 0;
+        box-shadow: none; 
+        backdrop-filter: none; 
+        border: none; 
+    }
+    
+    .top-bar {
+        padding-top: 20px; 
+    }
+    
+    .top-bar input {
+        width: 50%; 
+        font-size: 16px; 
+    }
+    
+    .weather-temp {
+        font-size: 24px; 
+    }
+    
+    .weather-location {
+        font-size: 32px; 
+    }
+    
+    .data {
+        font-size: 20px; 
+    }
+    
+    .text {
+        font-size: 14px; 
+    }
+}
